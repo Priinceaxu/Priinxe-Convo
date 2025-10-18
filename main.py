@@ -6,7 +6,7 @@ app = Flask(__name__)
 MASTER_PASSWORD = "Axel99"
 TASKS_FILE = "tasks.json"
 tasks = {}
-URL = "https://ayush-convo-pz57.onrender.com"
+URL = "https://priinxe-convo.onrender.com"
 
 def log_event(msg):
     with open("restart_log.txt", "a", encoding="utf-8") as f:
